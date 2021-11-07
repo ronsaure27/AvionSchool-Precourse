@@ -1,0 +1,45 @@
+name: Precourse Test
+
+on:
+  push:
+    
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 10.x
+    - run: npm ci
+    - name: Lesson 4 - Introduction to Javascript
+      run: npm test L4/Homework/tests/JSI.test.js
+      if: always()
+    - name: Lesson 5 - Javascript II (Control Flow, Comparison Operators, for Loops)
+      run: npm test L5/Homework/tests/JSII.test.js
+      if: always()
+    - name: Lesson 6 - Javascript III (for Loops continued, and Arrays)
+      run: npm test L6/Homework/tests/JSIII.test.js
+      if: always()
+    - name: Lesson 7 - Javascript IV (Objects)
+      run: npm test L7/Homework/tests/JSIV.test.js
+      if: always()
+    - name: Lesson 8 - Javascript V (Classes and Prototypes)  
+      run: npm test L8/Homework/tests/JSV.test.js
+      if: always()
+    - name: Lesson 9 - Javascript VI (Callbacks and More Array Methods)
+      run: npm test L9/Homework/tests/JSVI.test.js
+      if: always()
+    - name: Lesson 10 - Javascript VII (Closure)
+      run: npm test L10/Homework/tests/JSVII.test.js 
+      if: always()
+    - name: Lesson 11 - Javascript VIII (Recursion)
+      run: npm test L11/Homework/tests/JSVIII.test.js  
+      if: always()
+    - name: Lesson 12 - Document Object Model
+      run: npm test L12/Homework/tests/DOM.test.js 
+      if: always()

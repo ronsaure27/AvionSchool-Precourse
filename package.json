@@ -1,0 +1,23 @@
+{
+  "name": "Precourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avionschool/Precourse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avionschool/Precourse/issues"
+  },
+  "homepage": "https://github.com/avionschool/Precourse#readme",
+  "devDependencies": {
+    "jest": "^26.5.0"
+  }
+}

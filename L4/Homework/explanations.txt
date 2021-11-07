@@ -1,0 +1,9 @@
+Variables - Is a temporary place holder of any value type
+
+Strings - A value enclosed in quotation marks. 
+
+Functions (arguments, 'return') - An operation that follows a set of rules that you created or written placed inside its curly braces. It can be written so that it requires a value called an argument, from which the value returned will be usually based on. 
+
+'if' statements - "If" statements evaluates a condition within a parenthesis. only if the condition equates to true will the code inside its codeblock proceed.
+
+boolean values ('true', 'false') - Are values that usually result from an evaluation. Or it could also be a state describing the results of an evaluation.

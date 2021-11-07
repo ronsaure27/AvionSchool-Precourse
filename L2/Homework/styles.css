@@ -1,0 +1,39 @@
+h1{
+    color: teal;
+}
+img{
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: antiquewhite;
+    padding: 50px;
+    border: darksalmon solid 5px;
+}
+#spanId {
+    font-size: 18px;
+    margin: 50px;
+    display: block;
+}
+body {
+    background-image: url("sushi.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+    
+}
+div {
+    margin: 0 auto;
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    padding: 0;
+}
